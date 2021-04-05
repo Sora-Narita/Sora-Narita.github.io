@@ -6,40 +6,246 @@
 header {
     display: flex;
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #eebbc3;
-    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-   
   .title {
     margin-right: auto;
   }
-   
   header li {
     list-style: none;
     display: inline-block;
     padding: 10px;
   }
-  
   header a{
-      font-size: 30px;
+    font-size: 20px;
   }
-
   body {
-      background-color: #232946;
+    background-color: #232946;
 }
 h1 {
-    color:white;
+  color:white;
+  font-family: "Impact";
+  font-size: 50px;
+  text-align: center;
 }
 .container {
-    margin: 0 auto;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.Hello{
+  position: flex;
+}
+.meme1{
+  position:absolute;
+  left: 200px;
+}
+.meme3{
+position:absolute;
+right: 200px;
 }
 .btn{
-    border: 0px solid green;
-    border-radius: 5px;
-    background:linear-gradient(-135deg,  #b8c1ec, #eebbc3);
-    padding: 10px;
-    text-align: center;
-    color: white;
-    width: 150px;
-  }
+  text-align: center;  
+  border: 0px solid white;
+  border-radius: 10px;
+  background:linear-gradient(-135deg,  #b8c1ec, #eebbc3);
+  padding: 15px;
+  color: white;
+  width: 150px;
+  display: inline-flex;
+  flex-direction: column;
+}
+.btn1{
+  text-align: center;  
+  border: 0px solid white;
+  border-radius: 10px;
+  background:linear-gradient(-135deg,  #b8c1ec, #eebbc3);
+  padding: 15px;
+  color: white;
+  width: 200px;
+  display: inline-flex;
+  flex-direction: column;
+}
+.intro{
+  color: #b8c1ec;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em
+}
+.Titles{
+  text-align: center;
+  color: white;
+}
+.subTitle{
+  color:#b8c1ec
+}
+.lyrics{
+  color: white;
+  text-align: center;
+  font-family: クレー,游ゴシック;
+  line-height: 10px;
+  text-shadow:
+  1px 0 0 #342c2c,
+  0 1px 0 #342c2c,
+  -1px 0 0 #342c2c,
+  0 -1px 0 #342c2c;
+}
+.kashi{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Nanum Gothic;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.DG{
+  color:#004aae;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.JR{
+  color: #ff66c4;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.JY{
+  color: #38b6ff;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.CH{
+  color: #ffde59;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.JS{
+  color:#a96b50;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.WG{
+  color:#ff914d;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.KH{
+  color:#008037;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.CN{
+  color:#5e17eb;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.JA{
+  color: #00c3cc;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.MS{
+  color: #ff5757;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.tae{
+  color: #b56b27;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.mino{
+  color: #576370;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.key{
+  color: #3b432d;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.onew{
+  color: #af3021;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.dino{
+  color: #0e2d53;
+  text-shadow:
+    1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+.印刷用{
+  color: #eebbc3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+a:link{
+  color: #fff;
+  text-decoration:underline;
+}
+a:visited{
+  color:rgb(185, 116, 116);
+  text-decoration:underline;
+     
+}
+a:hover{
+  color: black;
+  text-decoration:underline;
+}
+a:active{
+  color: #232946;
+  text-decoration:none;
+   
+}
+a.headerlink:link{
+  text-decoration: none;
+}
